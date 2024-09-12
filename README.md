@@ -43,9 +43,6 @@ if ret:
 videoCaptureObject.release()
 cv2.destroyAllWindows()
 
-
-
-
 ## ii) Display the video
 import numpy as np
 import cv2
@@ -57,8 +54,6 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
-
 
 ## iii) Display the video by resizing the window
 import numpy as np
@@ -79,9 +74,6 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
-
-
 
 ## iv) Rotate and display the video
 import numpy as np
