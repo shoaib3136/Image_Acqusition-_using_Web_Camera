@@ -30,7 +30,7 @@ End the program and close the output video window by pressing 'q'.
 
 
 ## Program:
-``` Python
+``` 
 ### Developed By:Shaik Shoaib Nawaz
 ### Register No:212222240094
 
@@ -42,11 +42,12 @@ if ret:
     cv2.imwrite("shoaib.jpg", frame)
 videoCaptureObject.release()
 cv2.destroyAllWindows()
-
+```
 
 
 
 ## ii) Display the video
+```
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -57,10 +58,11 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
+```
 
 
 ## iii) Display the video by resizing the window
+```
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -79,11 +81,12 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
+```
 
 
 
 ## iv) Rotate and display the video
+```
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
