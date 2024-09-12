@@ -33,8 +33,9 @@ End the program and close the output video window by pressing 'q'.
 ``` 
 ### Developed By:Shaik Shoaib Nawaz
 ### Register No:212222240094
-
+```
 ## i) Write the frame as JPG file
+```
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
 ret, frame = videoCaptureObject.read()
