@@ -42,11 +42,9 @@ if ret:
     cv2.imwrite("shoaib.jpg", frame)
 videoCaptureObject.release()
 cv2.destroyAllWindows()
+
 ```
-
-
-
-## ii) Display the video
+ii) Display the video
 ```
 import numpy as np
 import cv2
@@ -59,8 +57,6 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
-
-
 ## iii) Display the video by resizing the window
 ```
 import numpy as np
@@ -82,7 +78,6 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
-
 
 
 ## iv) Rotate and display the video
@@ -122,7 +117,7 @@ cv2.destroyAllWindows()
 ![alt text](image-2.png)
 
 
-
+ 
 ### iv) Rotate and display the video
 ![alt text](image-3.png)
 
