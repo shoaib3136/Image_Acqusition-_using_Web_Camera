@@ -37,11 +37,12 @@ End the program and close the output video window by pressing 'q'.
 ## i) Write the frame as JPG file
 ```
 import cv2
-videoCaptureObject = cv2.VideoCapture(0)
-ret, frame = videoCaptureObject.read()
-if ret:
-    cv2.imwrite("shoaib.jpg", frame)
-videoCaptureObject.release()
+viedoCaptureObject=cv2.VideoCapture(0)
+while(True):
+    ret,frame=viedoCaptureObject.read()
+    cv2.imwrite("Shoaib.jpg",frame)
+    result=False
+viedoCaptureObject.release()
 cv2.destroyAllWindows()
 
 ```
